@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ProdutoServico.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aula09.Data\Aula09.Dados.csproj" />
+    <ProjectReference Include="..\Aula09.Dominio\Aula09.Dominio.csproj" />
+  </ItemGroup>
+
+</Project>

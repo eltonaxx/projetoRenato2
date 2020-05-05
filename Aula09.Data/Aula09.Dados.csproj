@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Configuracoes\DepartamentoConfiguracao.cs" />
+    <Compile Remove="Configuracoes\GrupoConfiguracao.cs" />
+    <Compile Remove="Configuracoes\MarcaConfiguracao.cs" />
+    <Compile Remove="Configuracoes\ProdutoConfiguracao.cs" />
+    <Compile Remove="GrupoRepositorio.cs" />
+    <Compile Remove="ProdutoRepositorio.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aula09.Dominio\Aula09.Dominio.csproj" />
+  </ItemGroup>
+
+</Project>

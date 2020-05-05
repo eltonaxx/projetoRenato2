@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Departamento.cs" />
+    <Compile Remove="Grupo.cs" />
+    <Compile Remove="Marca.cs" />
+    <Compile Remove="Produto.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aula09.Comum\Aula09.Comum.csproj" />
+  </ItemGroup>
+
+</Project>
